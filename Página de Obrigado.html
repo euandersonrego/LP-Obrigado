@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado por sua Compra!</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Define a fonte Inter como padrão para a página */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white antialiased">
+
+    <!-- Container Principal -->
+    <main class="flex flex-col items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+        
+        <!-- Card de Conteúdo -->
+        <div class="bg-gray-800 border border-gray-700 rounded-2xl shadow-2xl max-w-3xl w-full p-8 sm:p-10 lg:p-12 text-center transform transition-all duration-500 hover:scale-105 hover:shadow-cyan-500/20">
+
+            <!-- Ícone de Sucesso -->
+            <div class="flex justify-center mb-6">
+                <svg class="w-16 h-16 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+
+            <!-- Headline Vibrante -->
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black uppercase tracking-wide bg-gradient-to-r from-green-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4">
+                PARABÉNS! Você está dentro!
+            </h1>
+
+            <!-- Subtítulo Amigável -->
+            <h2 class="text-xl sm:text-2xl text-gray-300 mb-8">
+                Seja muito bem-vindo(a) à elite de gestores que decidiram AGIR.
+            </h2>
+
+            <!-- Mensagem Pessoal -->
+            <div class="text-left text-lg text-gray-400 space-y-6 border-t border-gray-700 pt-8 mb-10">
+                <p>Olá! Aqui é <strong>Anderson Rêgo</strong>.</p>
+                <p>
+                    Estou genuinamente feliz por você ter dado este passo. As ferramentas do <strong>Kit Gestor de Tráfego</strong> são o seu atalho para sair da inércia e conquistar seus primeiros clientes.
+                </p>
+                <p class="bg-gray-900/50 p-4 rounded-lg border border-yellow-500/30">
+                    <strong class="text-yellow-400">Atenção:</strong> Seus dados de acesso foram enviados para o seu e-mail e devem chegar em até 5 minutos. Verifique sua caixa de spam ou promoções.
+                </p>
+                <p>Enquanto isso, siga este passo essencial para garantir seu sucesso:</p>
+            </div>
+
+            <!-- Seção do Passo 1 -->
+            <div class="bg-gray-900 p-8 rounded-xl border border-gray-700">
+                <h3 class="text-yellow-400 font-bold text-lg uppercase mb-3">
+                    PASSO #1 (O MAIS IMPORTANTE)
+                </h3>
+                <h4 class="text-2xl font-bold text-white mb-4">
+                    Entre para a Comunidade Exclusiva
+                </h4>
+                <p class="text-gray-400 mb-8 max-w-xl mx-auto">
+                    Clique no botão abaixo e entre no nosso grupo fechado no WhatsApp. É lá que eu compartilho dicas extras, tiro dúvidas e onde você poderá fazer networking com outros gestores. Não fique sozinho(a) na jornada!
+                </p>
+
+                <!-- Botão de Ação Chamativo -->
+                <a href="https://chat.whatsapp.com/FPlYnmKyE2eAOFkKa2dnPf" target="_blank" rel="noopener noreferrer" 
+                   class="inline-block bg-green-500 text-gray-900 font-bold uppercase text-lg px-10 py-5 rounded-lg shadow-lg shadow-green-500/20
+                          transform transition-all duration-300 hover:bg-green-400 hover:scale-110 hover:shadow-2xl hover:shadow-green-500/40
+                          focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50">
+                    <span class="flex items-center justify-center">
+                        <!-- Ícone do WhatsApp -->
+                        <svg class="w-7 h-7 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01s-.521.074-.792.372c-.272.296-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.203 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                        </svg>
+                        Quero entrar na comunidade VIP
+                    </span>
+                </a>
+            </div>
+            
+        </div>
+        
+        <!-- Rodapé -->
+        <footer class="text-center py-8 px-4">
+            <a href="https://kit-gestor-de-trafego.netlify.app/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-cyan-400 transition-colors duration-300 text-sm">
+                &copy; 2025 Kit Gestor de Tráfego por Anderson Rêgo
+            </a>
+        </footer>
+    </main>
+
+</body>
+</html>
